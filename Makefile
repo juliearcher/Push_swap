@@ -6,7 +6,7 @@
 #    By: jarcher <marvin@le-101.fr>                 +:+   +:    +:    +:+      #
 #                                                  #+#   #+    #+    #+#       #
 #    Created: 2019/08/05 06:16:06 by jarcher      #+#   ##    ##    #+#        #
-#    Updated: 2019/09/02 10:52:47 by jarcher     ###    #+. /#+    ###.fr      #
+#    Updated: 2019/09/02 11:00:38 by jarcher     ###    #+. /#+    ###.fr      #
 #                                                          /                   #
 #                                                         /                    #
 # **************************************************************************** #
@@ -67,4 +67,3 @@ fclean: clean
 re: fclean all
 
 .PHONY: all clean fclean re
-.SILENT: clean fclean $(OBJSCOMMON) $(OBJSCHECKER) $(OBJSPUSH)
